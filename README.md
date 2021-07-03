@@ -1,0 +1,1 @@
+# Strict dart analyzer setup
