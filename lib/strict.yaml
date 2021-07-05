@@ -15,13 +15,13 @@ analyzer:
 linter:
   rules:
     - always_declare_return_types
-    # - always_put_control_body_on_new_line
+    - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
     - always_require_non_null_named_parameters
     # - always_specify_types
     # - always_use_package_imports
     - annotate_overrides
-    # - avoid_annotating_with_dynamic
+    - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
@@ -55,7 +55,7 @@ linter:
     - avoid_slow_async_io
     - avoid_type_to_string
     - avoid_types_as_parameter_names
-    # - avoid_types_on_closure_parameters
+    - avoid_types_on_closure_parameters
     - avoid_unnecessary_containers
     - avoid_unused_constructor_parameters
     - avoid_void_async
@@ -71,6 +71,7 @@ linter:
     - constant_identifier_names
     - control_flow_in_finally
     - curly_braces_in_flow_control_structures
+    - depend_on_referenced_packages
     - deprecated_consistency
     # - diagnostic_describe_all_properties
     - directives_ordering
@@ -83,7 +84,7 @@ linter:
     # - flutter_style_todos
     - hash_and_equals
     - implementation_imports
-    # - invariant_booleans
+    - invariant_booleans
     - iterable_contains_unrelated_type
     - join_return_with_assignment
     - leading_newlines_in_multiline_strings
@@ -100,9 +101,10 @@ linter:
     - no_logic_in_create_state
     - no_runtimeType_toString
     - non_constant_identifier_names
+    - noop_primitive_operations
     - null_check_on_nullable_type_parameter
     - null_closures
-    # - omit_local_variable_types
+    - omit_local_variable_types
     - one_member_abstracts
     - only_throw_errors
     - overridden_fields
@@ -143,9 +145,9 @@ linter:
     - prefer_is_not_operator
     - prefer_iterable_whereType
     - prefer_mixin
-    - prefer_null_aware_operators
     - prefer_null_aware_method_calls
-    # - prefer_relative_imports
+    - prefer_null_aware_operators
+    - prefer_relative_imports
     - prefer_single_quotes
     - prefer_spread_collections
     - prefer_typing_uninitialized_variables
@@ -157,7 +159,7 @@ linter:
     - sized_box_for_whitespace
     - slash_for_doc_comments
     - sort_child_properties_last
-    # - sort_constructors_first
+    - sort_constructors_first
     # - sort_pub_dependencies
     - sort_unnamed_constructors_first
     - test_types_in_equals
@@ -191,13 +193,14 @@ linter:
     - use_function_type_syntax_for_parameters
     - use_if_null_to_convert_nulls_to_bools
     - use_is_even_rather_than_modulo
-    # - use_key_in_widget_constructors
+    - use_key_in_widget_constructors
     - use_late_for_private_fields_and_variables
     - use_named_constants
     - use_raw_strings
     - use_rethrow_when_possible
     - use_setters_to_change_properties
     - use_string_buffers
+    # - use_test_throws_matchers
     - use_to_and_as_if_applicable
     - valid_regexps
     - void_checks
